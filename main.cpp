@@ -12,10 +12,10 @@ int main()
    
 
   //get user input
-cout<<"what is your first name?";
+cout<<"what is your first name?"<<endl;
 cin>>firstname;
 //cout<<"your fist name is:"<< firstname <<endl;
-cout <<"what is your last name?";
+cout <<"what is your last name?"<<endl;
 cin>>lastname;
 //cout<<"your last name is:"<< lastname <<endl;
 
@@ -43,7 +43,7 @@ cout<<"you should keep a low profile."<<endl;
 }
 if (lastname[len-1]=='a'||lastname[len-1]=='e'||lastname[len-1]=='i'||lastname[len-1]=='o'||lastname[0]=='u')
 {
-cout<<"you already met your true love";
+cout<<"you have already met your true love."<<endl;
 }
 else
 {
