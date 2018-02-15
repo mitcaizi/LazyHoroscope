@@ -12,10 +12,10 @@ int main()
    
 
   //get user input
-cout<<"what is your first name?"<<endl;
+cout<<"What is your first name?"<<endl;
 cin>>firstname;
 //cout<<"your fist name is:"<< firstname <<endl;
-cout <<"what is your last name?"<<endl;
+cout <<"What is your last name?"<<endl;
 cin>>lastname;
 //cout<<"your last name is:"<< lastname <<endl;
 
@@ -35,7 +35,7 @@ int len=lastname.length();
 if (firstname[0]=='a'||firstname[0]=='e'||firstname[0]=='i'||firstname[0]=='o'||firstname[0]=='u'||firstname[0]=='A'||
 firstname[0]=='E'||firstname[0]=='I'||firstname[0]=='O'||firstname[0]=='U')
 {
-cout<<"you are destined to be famous";
+cout<<"you are destined to be famous!"<<endl;
 }
 else
 {
